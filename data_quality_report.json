@@ -1,0 +1,191 @@
+{
+  "timestamp": "2026-02-25T18:34:53.859312",
+  "overall_statistics": {
+    "total_records": 10975,
+    "total_columns": 168,
+    "unique_registries": 5,
+    "unique_countries": 147,
+    "unique_project_types": 82,
+    "unique_statuses": 25,
+    "total_credits_issued": 2554813143.0,
+    "total_credits_retired": 1462296090.0,
+    "total_credits_remaining": 1092517053.0
+  },
+  "missing_data": {
+    "Project ID": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "Project Name": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "Voluntary Registry": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "Country": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "Type": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "Voluntary Status": {
+      "null_count": 366,
+      "null_percentage": 3.33
+    },
+    "Total Credits \nIssued": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "Total Credits \nRetired": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "Total Credits Remaining": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    }
+  },
+  "data_integrity": {
+    "negative_issued_credits": 0,
+    "negative_retired_credits": 0,
+    "negative_remaining_credits": 15,
+    "duplicate_project_ids": 0,
+    "credit_calculation_mismatches": 0
+  },
+  "problematic_records": {
+    "negative_remaining_credits": [
+      {
+        "project_id": "ACR212",
+        "project_name": "UPM Blandin Native American Hardwoods Conservation & Carbon Sequestration Project",
+        "issued": 1387888.0,
+        "retired": 1531480.0,
+        "remaining": -143592.0,
+        "difference": -143592.0
+      },
+      {
+        "project_id": "ACR272",
+        "project_name": "Bear Creek Watershed Forest Carbon Project",
+        "issued": 375650.0,
+        "retired": 411399.0,
+        "remaining": -35749.0,
+        "difference": -35749.0
+      },
+      {
+        "project_id": "ACR420",
+        "project_name": "Finite Carbon - Sealaska 2 Native Alaskan IFM",
+        "issued": 2153385.0,
+        "retired": 2333929.0,
+        "remaining": -180544.0,
+        "difference": -180544.0
+      },
+      {
+        "project_id": "ACR425",
+        "project_name": "Bluesource - Goldbelt Improved Forest Management Project",
+        "issued": 394194.0,
+        "retired": 425491.0,
+        "remaining": -31297.0,
+        "difference": -31297.0
+      },
+      {
+        "project_id": "CAR660",
+        "project_name": "Gualala River Forest",
+        "issued": 487865.0,
+        "retired": 537344.0,
+        "remaining": -49479.0,
+        "difference": -49479.0
+      },
+      {
+        "project_id": "CAR1013",
+        "project_name": "Buckeye Forest Project",
+        "issued": 913550.0,
+        "retired": 942018.0,
+        "remaining": -28468.0,
+        "difference": -28468.0
+      },
+      {
+        "project_id": "CAR1035",
+        "project_name": "Scenic View Dairy Methane Reduction Project",
+        "issued": 161083.0,
+        "retired": 179950.0,
+        "remaining": -18867.0,
+        "difference": -18867.0
+      },
+      {
+        "project_id": "CAR1123",
+        "project_name": "Central Sands Dairy, LLC",
+        "issued": 74829.0,
+        "retired": 78839.0,
+        "remaining": -4010.0,
+        "difference": -4010.0
+      },
+      {
+        "project_id": "GS440",
+        "project_name": "*Mamak Landfill Waste Management Project  Turkey",
+        "issued": 3192403.0,
+        "retired": 3192998.0,
+        "remaining": -595.0,
+        "difference": -595.0
+      },
+      {
+        "project_id": "GS2913",
+        "project_name": "BaumInvest Reforestation Project",
+        "issued": 48801.0,
+        "retired": 161551.0,
+        "remaining": -112750.0,
+        "difference": -112750.0
+      },
+      {
+        "project_id": "GS2951",
+        "project_name": "ArBolivia- Phase II",
+        "issued": 133691.0,
+        "retired": 215438.0,
+        "remaining": -81747.0,
+        "difference": -81747.0
+      },
+      {
+        "project_id": "GS3007",
+        "project_name": "Sodo Ethiopia",
+        "issued": 116275.0,
+        "retired": 153176.0,
+        "remaining": -36901.0,
+        "difference": -36901.0
+      },
+      {
+        "project_id": "GS3039",
+        "project_name": "Australian Yarra Yarra Biodiversity Project",
+        "issued": 175837.0,
+        "retired": 193202.0,
+        "remaining": -17365.0,
+        "difference": -17365.0
+      },
+      {
+        "project_id": "VCS67",
+        "project_name": "Ratchaburi Farms Biogas Project at SPM Farm",
+        "issued": 32969.0,
+        "retired": 33353.0,
+        "remaining": -384.0,
+        "difference": -384.0
+      },
+      {
+        "project_id": "VCS144",
+        "project_name": "Capacity Upgrade of Gunung Salak Geothermal Power Plant Project, Indonesia",
+        "issued": 1499246.0,
+        "retired": 1594793.0,
+        "remaining": -95547.0,
+        "difference": -95547.0
+      }
+    ],
+    "retired_exceeds_issued": []
+  },
+  "summary": {
+    "status": "WARNING",
+    "issues_found": [
+      "15 projects have more credits retired than issued"
+    ],
+    "warnings": []
+  }
+}
